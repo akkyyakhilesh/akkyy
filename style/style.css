@@ -79,14 +79,21 @@ h1.black{
 img{
 	width:90%
 }
-footer{
-	clear:both;
-	color:white;
-	text-size:24px;
-	padding:25px;
-	background-color:grey;
-	text-align:center;
+
+footer {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 4rem;
 }
-#footlink{
-	color:blue;
+
+footer .copyright {
+  margin-bottom: .3rem;
+}
+
+footer .credits {
+  margin-bottom: 0;
+}
+
+footer .credits a {
+  color: #fff;
 }
