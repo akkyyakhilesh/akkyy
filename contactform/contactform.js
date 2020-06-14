@@ -112,7 +112,11 @@ jQuery(document).ready(function($) {
 
       }
     });
-    return alert("Form Submitted.. we will get back to you!");
+	$("#sendmessage").addClass("show");
+    $("#errormessage").removeClass("show");
+    $('.contactForm').find("input, textarea").val("");
+    return false
+	
   });
 
 });
